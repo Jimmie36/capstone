@@ -1,0 +1,222 @@
+
+@media only screen and (max-width: 600px){
+  ul{
+    display: none;
+  }
+
+   container{
+     display:flex;
+     flex-direction: column;
+   }
+   banner{
+     width: 40%;
+   }
+   .item h1{
+     font-size: 1rem;
+     font-weight: bold;
+     padding-top: 0.88rem;
+     padding-bottom: 0.88rem;
+   }
+
+}
+
+/*End of media queries*/
+html{
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+}
+
+body{
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.55rem;
+  padding: 0 24px;
+  /*background-color: lightblue;*/
+  color: black;
+}
+
+header div{
+  flex-grow: 1;
+}
+
+header img{
+  width: 1.3rem;
+  height: 2rem;
+  background-color: lightblue;
+}
+
+header span{
+  font-size 1.77rem;
+}
+
+#colmar{
+  font-weight: bold;
+}
+
+#academy{
+  color: grey;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li{
+  font-size: 0.88rem;
+  display: inline;
+  padding-left: 0.88rem;
+}
+
+.banner{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 60%;
+  margin: 0 1.77rem;
+  /*background-color: red;*/
+}
+
+.banner img{
+  width: 100%;
+  padding: 1.77rem 1.33rem;
+}
+.banner h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.33rem;
+}
+
+.banner p{
+  font-size: 1rem;
+  padding-left: 1.33rem;
+}
+
+.banner author{
+  font-size: .88rem;
+  padding-bottom: 1.33rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  /*background-color: green;*/
+  }
+
+.item{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 1.77rem;
+  margin-left: 1rem;
+}
+
+.item img{
+  width: 134px;
+  height: 134px;
+  padding: 0.88rem;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+ }
+
+.item h1{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.88rem;
+  padding-bottom: 0.88rem;
+}
+
+.item h2{
+  padding-bottom: 0.88rem;
+}
+
+.button{
+  width: 50%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 1rem 0;
+  margin: 1.77rem auto;
+}
+
+.courses-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 3.00rem;
+  padding-bottom: 1.77rem;
+  /*background-color: blue;*/
+}
+.learning-title{
+  text-align: center;
+  width: 100%;
+  padding: 1.77rem 0 1.77rem 0;
+}
+
+.course-info{
+  width: 30%;
+  margin-left: 1.00rem;
+  /*background-color: lightblue;*/
+}
+
+.course-info img{
+  width: 100%;
+  padding-top: 1.77rem;
+  padding-bottom: 0.88rem;
+}
+
+.course-info h1{
+  font-weight: bold;
+  padding-left: 0.88rem;
+}
+
+.course-info h2{
+  padding-top: 0.44rem;
+  padding-left: 0.88rem;
+  padding-bottom: 0.44rem;
+}
+
+.course-info h6{
+  padding-left: 0.88rem;
+}
+
+.video-container{
+  width: 100%;
+  padding: 0.44rem;
+}
+
+footer{
+  display: flex;
+  flex-dir  ection: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.55rem;
+  padding: 0 1.33rem;
+  /*background-color: blue;*/
+  color: black;
+}
+
+footer li{
+  font-style: 0.88rem;
+}
